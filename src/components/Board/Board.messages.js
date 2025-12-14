@@ -64,6 +64,11 @@ export default defineMessages({
     defaultMessage:
       'Scanner will iterate over elements, press any key to select them.'
   },
+  scannerInteractiveStrategy: {
+    id: 'cboard.components.Board.scannerInteractiveStrategy',
+    defaultMessage:
+      'Scanner moves interactively with arrow keys, press enter to select an item.'
+  },
   userProfileLocked: {
     id: 'cboard.components.Board.userProfileLocked',
     defaultMessage:

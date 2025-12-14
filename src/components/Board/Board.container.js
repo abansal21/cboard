@@ -60,7 +60,8 @@ import Board from './Board.component';
 import API from '../../api';
 import {
   SCANNING_METHOD_AUTOMATIC,
-  SCANNING_METHOD_MANUAL
+  SCANNING_METHOD_MANUAL,
+  SCANNING_METHOD_INTERACTIVE
 } from '../Settings/Scanning/Scanning.constants';
 import { NOTIFICATION_DELAY } from '../Notifications/Notifications.constants';
 import { EMPTY_VOICES } from '../../providers/SpeechProvider/SpeechProvider.constants';
@@ -938,7 +939,8 @@ export class BoardContainer extends Component {
     } = this.props;
     const messagesKeyMap = {
       [SCANNING_METHOD_MANUAL]: messages.scannerManualStrategy,
-      [SCANNING_METHOD_AUTOMATIC]: messages.scannerAutomaticStrategy
+      [SCANNING_METHOD_AUTOMATIC]: messages.scannerAutomaticStrategy,
+      [SCANNING_METHOD_INTERACTIVE]: messages.scannerInteractiveStrategy
     };
     showNotification(intl.formatMessage(messagesKeyMap[strategy]));
 

@@ -41,6 +41,10 @@ export default defineMessages({
     id: 'cboard.components.Settings.Scanning.manual',
     defaultMessage: 'Manual'
   },
+  interactive: {
+    id: 'cboard.components.Settings.Scanning.interactive',
+    defaultMessage: 'Interactive'
+  },
   scannerHowToDeactivate: {
     id: 'cboard.components.Settings.Scanning.scannerHowToDeactivate',
     defaultMessage: 'Press Escape 4 times to deactivate Scanner.'
@@ -54,5 +58,10 @@ export default defineMessages({
     id: 'cboard.components.Settings.Scanning.scannerAutomaticStrategy',
     defaultMessage:
       'Scanner will iterate over elements, press any key to select them.'
+  },
+  scannerInteractiveStrategy: {
+    id: 'cboard.components.Settings.Scanning.scannerInteractiveStrategy',
+    defaultMessage:
+      'Scanner moves interactively with arrow keys, press enter to select an item.'
   }
 });

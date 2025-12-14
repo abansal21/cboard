@@ -46,6 +46,10 @@ jest.mock('./Scanning.messages', () => {
     manual: {
       id: 'cboard.components.Settings.Scanning.manual',
       defaultMessage: 'Manual'
+    },
+    interactive: {
+      id: 'cboard.components.Settings.Scanning.interactive',
+      defaultMessage: 'Interactive'
     }
   };
 });

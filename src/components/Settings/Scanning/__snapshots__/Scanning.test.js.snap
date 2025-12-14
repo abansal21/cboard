@@ -189,6 +189,15 @@ exports[`Scanning tests default renderer 1`] = `
                   values={Object {}}
                 />
               </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                value="interactive"
+              >
+                <FormattedMessage
+                  defaultMessage="Interactive"
+                  id="cboard.components.Settings.Scanning.interactive"
+                  values={Object {}}
+                />
+              </WithStyles(ForwardRef(MenuItem))>
             </WithStyles(ForwardRef(Select))>
           </WithStyles(ForwardRef(ListItemSecondaryAction))>
         </WithStyles(ForwardRef(ListItem))>
@@ -406,6 +415,15 @@ exports[`Scanning tests options behavior 1`] = `
                   values={Object {}}
                 />
               </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                value="interactive"
+              >
+                <FormattedMessage
+                  defaultMessage="Interactive"
+                  id="cboard.components.Settings.Scanning.Interactive"
+                  values={Object {}}
+                />
+              </WithStyles(ForwardRef(MenuItem))>
             </WithStyles(ForwardRef(Select))>
           </WithStyles(ForwardRef(ListItemSecondaryAction))>
         </WithStyles(ForwardRef(ListItem))>
@@ -620,6 +638,15 @@ exports[`Scanning tests options behavior 2`] = `
                 <FormattedMessage
                   defaultMessage="Manual"
                   id="cboard.components.Settings.Scanning.manual"
+                  values={Object {}}
+                />
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                value="interactive"
+              >
+                <FormattedMessage
+                  defaultMessage="Interactive"
+                  id="cboard.components.Settings.Scanning.interactive"
                   values={Object {}}
                 />
               </WithStyles(ForwardRef(MenuItem))>

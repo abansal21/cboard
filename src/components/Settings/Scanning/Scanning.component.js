@@ -13,6 +13,7 @@ import FullScreenDialog from '../../UI/FullScreenDialog';
 import messages from './Scanning.messages';
 import {
   SCANNING_METHOD_AUTOMATIC,
+  SCANNING_METHOD_INTERACTIVE,
   SCANNING_METHOD_MANUAL
 } from './Scanning.constants';
 
@@ -28,7 +29,8 @@ const propTypes = {
 
 const SCANNER_MESSAGES_KEYMAP = {
   [SCANNING_METHOD_MANUAL]: messages.scannerManualStrategy,
-  [SCANNING_METHOD_AUTOMATIC]: messages.scannerAutomaticStrategy
+  [SCANNING_METHOD_AUTOMATIC]: messages.scannerAutomaticStrategy,
+  [SCANNING_METHOD_INTERACTIVE]: messages.scannerInteractiveStrategy
 };
 
 const DELAY_OPTIONS = [
@@ -152,6 +154,9 @@ class Scanning extends React.Component {
                     </MenuItem>
                     <MenuItem value={SCANNING_METHOD_MANUAL}>
                       <FormattedMessage {...messages.manual} />
+                    </MenuItem>
+                    <MenuItem value={SCANNING_METHOD_INTERACTIVE}>
+                      <FormattedMessage {...messages.interactive} />
                     </MenuItem>
                   </Select>
                 </ListItemSecondaryAction>
